@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> FA6_Bermudo </title>
+	<style>
+		div{
+			border: 2px solid black;
+		}
+		a{
+			border: 2px solid black;
+		}
+		body{
+			background-color: #cccfff;
+		}
+		
+		
+		#div1{
+			border-style: 1px solid black;
+			width: 250px;
+			height: 250px;
+			margin-right: 50px;
+			text-align: center;
+			background-color: #ffffff;
+		}
+		#div1:target{
+			border-style: 1px solid black;
+			width: 250px;
+			height: 250px;
+			margin-right: 50px;
+			background-color: #cc00cc;
+			text-align: center;
+		}
+		#div2{
+			border-style: 1px solid black;
+			width: 250px;
+			height: 250px;
+			margin-right: 50px;
+			text-align: center;
+			background-color: #ffffff;
+		}
+		#div2:target{
+			border: 15px dotted green;
+			width: 250px;
+			height: 250px;
+			margin-right: 50px;
+			background-color: #3333ff;
+			text-align: center;
+		}
+		#link1:link{
+			text-decoration: none;
+			color: #ff0000;
+			border-style: 1px solid black;
+			width: 250px;
+			height: 250px;
+			margin-right: 50px;
+			background:white;
+		}
+		#link2:link{
+			text-decoration: none;
+			color: #ff0000;
+			border-style: 1px solid black;
+			width: 250px;
+			height: 250px;
+			margin-right: 50px;
+			background:white;
+		}
+		#link1:visited{
+			color: #99cc00;
+			background-color: black;
+		}
+		#link2:visited{
+			color: #99cc00;
+			background-color: black;
+		}
+		#link1:hover{
+			color: #ffcc99;
+			background-color: #ffffff;
+		}
+		#link2:hover{
+			color: #ffcc99;
+			background-color: #ffffff;
+		}
+		#link1:active{
+			background-color: #ff9999;
+		}
+		#link2:active{
+			background-color: #ff9999;
+		}
+	</style>
+	</head>
+	<body>
+		<a id="link1" href="#div1"> Link 1</a>
+		<a id="link2" href="#div2"> Link 2</a>
+		<div id="div1"> Div 1 </div>
+		<div id="div2"> Div 2 </div>
+	</body>
+</html>
